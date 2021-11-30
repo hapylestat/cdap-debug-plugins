@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "spec-version": "1.5"
+  },
+  "configuration-groups": [
+    {
+      "label": "Basic",
+      "properties": [
+        {
+          "name": "referenceName",
+          "label": "Reference Name",
+          "widget-type": "textbox"
+        },
+        {
+          "name": "usePublicClassPath",
+          "label": "Incquire Global Class Path",
+          "widget-type": "toggle",
+          "widget-attributes": {
+            "on": {
+              "value": "on",
+              "label": "On"
+            },
+            "off": {
+              "value": "off",
+              "label": "Off"
+            },
+            "default": "off"
+          }
+        }
+      ]
+    }
+  ],
+  "emit-errors": true,
+  "outputs": [
+    {
+      "name": "schema",
+      "widget-type": "schema",
+      "widget-attributes": {
+        "default-schema": {
+          "name": "output",
+          "type": "record",
+          "fields": [
+
+          ]
+        }
+      }
+    }
+  ],
+  "filters": [
+  ]
+}
